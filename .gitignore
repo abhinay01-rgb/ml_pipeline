@@ -1,0 +1,5 @@
+/config.local
+/tmp
+/cache
+/metrics.txt
+/metrics.json
