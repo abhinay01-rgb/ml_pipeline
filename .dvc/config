@@ -1,5 +1,9 @@
 [core]
     autostage = true
-    remote = myremote
+    remote = gdrive_remote
 ['remote "myremote"']
     url = ../dataset_mine
+['remote "gdrive_remote"']
+    url = gdrive://13vWted_fsn8v5FkXGNVyIPwKICBtcsyy
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = ../dvc.json
